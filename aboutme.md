@@ -1,16 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Short Bio
+======
+Chong Zhou is a Master student from the Department of Computer Science at the University of California, Davis, advised by [Yong Jae Lee](https://web.cs.ucdavis.edu/~yjlee/). Prior to that, he completed his Bachelor's degree in Software Engineering from Nankai University, advised by [Ming-Ming Cheng](https://mmcheng.net/cmm/). Chong is broadly interested in Computer Vision and related problems in Machine Learning.
