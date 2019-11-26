@@ -35,39 +35,61 @@ avatar: "/img/chong.jpeg"
 # then specify the following parameter
 # title-img: /path/to/image
 
+# --- Background colour/image options --- #
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+
+# navbar-img: "/img/bgimage.png"
+# footer-img: "/img/bgimage.png"
+# page-img: "/img/bgimage.png"
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Chong Zhou
-  email: "cczhou@ucdavis.edu"
-  github: chongzhou96
 
 # Select which links to show in the footer
-footer-links-active:
-  rss: false
-  facebook: false
-  email: true
-  twitter: false
-  google-plus: false
-  github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
+social-network-links:
+  email: "cczhou@ucdavis.edu"
+  github: chongzhou96
+  # rss: true
+  # facebook: deanattali
+  # twitter: daattali
+  # reddit: yourname
+  # linkedin: daattali
+  # xing: yourname
+  # stackoverflow: "3943160/daattali"
+  # snapchat: deanat78
+  # instagram: deanat78
+  # youtube: user/deanat78
+  # spotify: yourname
+  # telephone: +14159998888
+  # steam: deanat78
+  # twitch: yourname
+  # yelp: yourname
 
 # Select which share links to show in posts
 share-links-active:
   twitter: false
   facebook: false
-  google: true
   linkedin: false
+  github: true
+  email: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
