@@ -13,8 +13,8 @@ title: Publications
        <p class="media-heading">
             <strong> YOLACT: Real-time Instance Segmentation</strong><br />
             Daniel Bolya,  <b>Chong Zhou</b>, Fanyi Xiao, Yong Jae Lee<br />
-            Proceedings of the IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2019 (<font color="#339999">oral presentation</font>)<br />
-            <font color="#ff0000">Most Innovative Award, COCO Object Detection Challenge, ICCV 2019</font>
+            IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2019 (<font color="#339999">oral presentation</font>)<br />
+            <font color="#ff0000">Most Innovative Award, COCO Object Detection Challenge, ICCV 2019</font><br />
             <a href="https://arxiv.org/abs/1904.02689">[arXiv]</a> <a href="https://github.com/dbolya/yolact">[code]</a><br />
        </p>
     </div>
