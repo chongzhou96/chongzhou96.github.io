@@ -1,63 +1,279 @@
----
-layout: page
-title: Chong Zhou
-subtitle: Research Intern at Tencent Youtu Lab
-use-site-title: false
----
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<h3>Short Bio</h3>
-<p>
-  I'm a research intern at the Tencent Youtu Lab and I will join the <a href="http://personal.ie.cuhk.edu.hk/~ccloy/team.html">MMLab@NTU</a> as a Ph.D. student in 2021 fall.
-</p> 
-<p>
-  Prior to that, I completed my Master's degree from UC Davis advised by <a href="https://web.cs.ucdavis.edu/~yjlee/">Yong Jae Lee</a> and Bachelor's degree from Nankai University advised by <a href="https://mmcheng.net/cmm/">Ming-Ming Cheng</a>. 
-</p>
-<p>
-  I am broadly interested in computer vision and related problems in machine learning. My research experience is focused on <b>instance segmentation</b>, <b>object detection</b>, and <b>pedestrian detection</b>. Currently, I'm particularly interested in <b>self-supervised learning</b>.
-</p>
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Chong Zhou; 周冲; Computer Vision; Deep Learning; Machine Learning; University of California, Davis; UC Davis; Tencent; Nanyang Technological University; NTU; Multimedia Lab; MMLAB">
+<link rel="author" href="https://chongzhou96.github.io/">
 
-<h3>News</h3>
-<ul>
-  <li><p>1/2021: Our pedestrian detection method, <a href="https://github.com/TencentYoutuResearch/PedestrianDetection-NohNMS">NOH-NMS</a>, won the first place at the  <a href="http://competition.baai.ac.cn/c/34/rank/timeline/68?sourceType=public">CrowdHuman Challenge, 2020</a>.</p></li>
-  <li><p>10/2020: YOLACT is integrated into <a href="https://github.com/open-mmlab/mmdetection/blob/master/configs/yolact/README.md">mmdetection</a>.</p></li>
-  <li><p>7/2020: 1 paper accepted to <b>TPAMI 2020</b> and 1 paper accepted to <b>ACM Multimedia 2020</b>.</p></li>
-  <li><p>10/2019: Our real-time instance segmentation method, <a href="https://github.com/dbolya/yolact">YOLACT</a>, won the "most innovative award" at the <a href="http://cocodataset.org/workshop/coco-mapillary-iccv-2019.html">COCO Object Detection Challenge</a>, <b>ICCV 2019</b></p></li>
-  <li><p>7/2019: 1 paper accepted to <b>ICCV 2019</b> as <font color="#339999">oral presentation</font>.</p></li>
-</ul>
+	<title>Chong Zhou's Homepage</title>
+	<style>
 
-<!-- <h3>Preprints</h3> -->
-<h3>Publications</h3>
-<div class="media">
-  <div class="media-body">
-     <p class="media-heading">
-          <strong> NON-NMS: Improving Pedestrian Detection by Nearby Objects Hallucination</strong><br />
-          Penghao Zhou, <b>Chong Zhou</b>, Pai Peng, Junlong Du, Xing Sun, Xiaowei Guo, Feiyue Huang<br />
-          ACM International Conference on Multimedia (<strong>ACM Multimedia</strong>), 2020 <br />
-          <font color="#ff0000">First Place, CrowdHuman Challenge, 2020</font><br />
-          <a href="https://arxiv.org/abs/2007.13376">[arXiv]</a> <a href="https://github.com/TencentYoutuResearch/PedestrianDetection-NohNMS">[code]</a><br />
-     </p>
-  </div>
-</div>
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
+p { font-size : 16px; }
+h1 { font-size : 34px; margin : 0; padding : 0; }
+h2 { font-size : 20px; margin : 0; padding : 0; }
+h3 { font-size : 18px; margin : 8; padding : 0; }
+body { padding : 0; font-family : Arial; font-size : 16px; background-color : #fff; }
+.title { width : 650px; margin : 20px auto; }
+.container { width : 750px; margin : 20px auto; border-radius: 10px;  background-color : #fff; padding : 20px;  clear:both;}
+#bio {
+    padding-top : 30px;
+}
+#me { border : 0 solid black; margin-bottom : 50px; border-radius : 10px; }
+#sidebar { margin-left : 25px; border : 0 solid black; float : right; margin-bottom : 0;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a, a:visited { color : #0050e7; }
+.publogo { width: 100 px; margin-right : 20px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 0px; }
+.publication p { height : 100px; padding-top : 5px;}
+.publication strong a { color : #0000A0; }
+.publication .links { position : relative; top : 15px }
+.publication .links a { margin-right : 20px; }
+.codelogo { margin-right : 10px; float : left; border : 0;}
+.code { clear : left; padding-bottom : 10px; vertical-align :middle;} 
+.code .download a { display : block; margin : 0 15px; float : left;}
+.code strong a { color : #000; }
+.external a { margin : 0 10px; }
+.external a.first { margin : 0 10px 0 0; }
+	</style>
+	<script async="" src="./homepage_files/analytics.js"></script>
+</head>
 
-<div class="media">
-  <div class="media-body">
-     <p class="media-heading">
-          <strong> YOLACT++: Better Real-time Instance Segmentation</strong><br />
-          Daniel Bolya*,  <b>Chong Zhou*</b>, Fanyi Xiao, Yong Jae Lee<br />
-          IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>), 2020 <br />
-          <a href="https://arxiv.org/abs/1912.06218">[arXiv]</a> <a href="https://github.com/dbolya/yolact">[code]</a><br />
-     </p>
-  </div>
-</div>
+<body>
+	<div class="title">
+		<div id="sidebar"><img src="./homepage_files/me.jpg" vspace="50 px" width="300 px" id="me" itemprop="photo"></div>
+		<div id="bio">
 
-<div class="media">
-  <div class="media-body">
-     <p class="media-heading">
-          <strong> YOLACT: Real-time Instance Segmentation</strong><br />
-          Daniel Bolya,  <b>Chong Zhou</b>, Fanyi Xiao, Yong Jae Lee<br />
-          IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2019 (<font color="#339999">oral presentation</font>)<br />
-          <font color="#ff0000">Most Innovative Award, COCO Object Detection Challenge, ICCV 2019</font><br />
-          <a href="https://arxiv.org/abs/1904.02689">[arXiv]</a> <a href="https://github.com/dbolya/yolact">[code]</a><br />
-     </p>
-  </div>
-</div>
+            <br>
+
+			<h1>
+				<span itemprop="name">Chong Zhou <font size="5">周冲</font> </span>
+			</h1>
+
+            <br>
+
+			<!-- <p style="line-height:23px;">
+				Ph.D. Student
+                <br>
+                <br>
+                School of Computer Science and Engineering
+                <br>
+                <br>
+                Nanyang Technological University
+                <br>
+                <br>
+                Email: chongzhou1024 at gmail.com
+                <br>
+			</p> -->
+
+            <p style="line-height:23px;">
+				Research Intern
+                <br>
+                <br>
+                Tencent Youtu Lab
+                <br>
+                <br>
+                Email: chongzhou1024 at gmail.com
+                <br>
+			</p>
+
+            <br>
+
+            <p class="external">
+                <a href="https://scholar.google.com/citations?user=1mCYe_oAAAAJ&hl=en&oi=sra" class="first">Google Scholar</a>
+                <a href="https://github.com/chongzhou96">GitHub</a>
+                <a href="https://www.linkedin.com/in/chong-zhou-bbb3421b3/">LinkedIn</a>
+            </p>
+		</div>
+	</div>
+
+	<div class="container">
+		<h2>Short Bio</h2>
+		<p>
+			I'm a research intern at the Tencent Youtu Lab and I will join the <a href="http://personal.ie.cuhk.edu.hk/~ccloy/team.html">MMLab@NTU</a> as a Ph.D. student in 2021 fall. Previously, I completed my Master's degree from UC Davis advised by <a href="https://web.cs.ucdavis.edu/~yjlee/">Yong Jae Lee</a> and Bachelor's degree from Nankai University advised by <a href="https://mmcheng.net/cmm/">Ming-Ming Cheng</a>.
+	        <br>
+            <br>
+	        I am broadly interested in computer vision and related problems in machine learning. My research focuses on instance segmentation, object detection, and pedestrian detection. Currently, I'm particularly interested in self-supervised learning.
+		</p>
+	</div>
+
+    <div class="container">
+        <h2>News</h2>
+        <p>
+        [2021-01] Our pedestrian detection method, <a href="https://github.com/TencentYoutuResearch/PedestrianDetection-NohNMS">NOH-NMS</a>, won the first place at the  <a href="http://competition.baai.ac.cn/c/34/rank/timeline/68?sourceType=public">CrowdHuman Challenge, 2020</a>.
+        <br>
+        <br>
+        [2020-10] YOLACT is integrated into <a href="https://github.com/open-mmlab/mmdetection/blob/master/configs/yolact/README.md">mmdetection</a>.
+        <br>
+        <br>
+        [2020-07] 1 paper accepted to TPAMI 2020 and 1 paper accepted to ACM Multimedia 2020.
+        <br>
+        <br>
+        [2019-10] Our real-time instance segmentation method, <a href="https://github.com/dbolya/yolact">YOLACT</a>, won the "most innovative award" at the <a href="http://cocodataset.org/workshop/coco-mapillary-iccv-2019.html">COCO Object Detection Challenge, ICCV 2019</a>.
+        <br>
+        <br>
+        [2019-07] 1 paper accepted to ICCV 2019 as oral presentation.
+        </p>
+    </div>
+
+	<div class="container">
+		<h2>Publications</h2>
+        <br>
+        <!-- <h3>2021</h3> -->
+        <div class="publication">
+            <img src="./homepage_files/noh_logo.png" class="publogo" width="200 px">
+            <p> 
+                <strong>
+                    <a href="https://arxiv.org/abs/2007.13376">NON-NMS: Improving Pedestrian Detection by Nearby Objects Hallucination</a>
+                </strong>
+                <br>
+                <br>
+                Penghao Zhou, <b>Chong Zhou</b>, Pai Peng, Junlong Du, Xing Sun, <br>Xiaowei Guo, Feiyue Huang.
+                <br>
+                <!-- <em>Computer Vision and Pattern Recognition (CVPR), 2021 <font color="#e86e14">(Oral)</font> </em> -->
+                <em> ACM International Conference on Multimedia (ACM Multimedia), 2020 </em>
+                <br>
+                <em>First Place, <a href="http://competition.baai.ac.cn/c/34/rank/timeline/68?sourceType=public">CrowdHuman Challenge, 2020</a></em>
+                <br>
+                <span class="links">
+                    <a href="https://arxiv.org/abs/2007.13376">PDF</a>
+                    <!-- <a href="https://yinanhe.github.io/projects/forgerynet.html">Project Page</a> -->
+                    <a href="https://github.com/TencentYoutuResearch/PedestrianDetection-NohNMS">Code</a>
+                </span>
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="publication">
+            <img src="./homepage_files/yolact++_logo.png" class="publogo" width="200 px">
+            <p> 
+                <strong>
+                    <a href="https://arxiv.org/abs/1912.06218">YOLACT++: Better Real-time Instance Segmentation</a>
+                </strong>
+                <br>
+                <br>
+                Daniel Bolya*,  <b>Chong Zhou*</b>, Fanyi Xiao, Yong Jae Lee.
+                <br>(*equal contribution)
+                <br>
+                <!-- <em>Computer Vision and Pattern Recognition (CVPR), 2021 <font color="#e86e14">(Oral)</font> </em> -->
+                <em> Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2020 </em>
+                <br>
+                <span class="links">
+                    <a href="https://arxiv.org/abs/1912.06218">PDF</a>
+                    <!-- <a href="https://yinanhe.github.io/projects/forgerynet.html">Project Page</a> -->
+                    <a href="https://github.com/dbolya/yolact">Code</a>
+                </span>
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="publication">
+            <img src="./homepage_files/yolact_logo.png" class="publogo" width="200 px">
+            <p> 
+                <strong>
+                    <a href="https://arxiv.org/abs/1904.02689">YOLACT: Real-time Instance Segmentation</a>
+                </strong>
+                <br>
+                <br>
+                Daniel Bolya,  <b>Chong Zhou</b>, Fanyi Xiao, Yong Jae Lee.
+                <br>
+                <!-- <em>Computer Vision and Pattern Recognition (CVPR), 2021 <font color="#e86e14">(Oral)</font> </em> -->
+                <em> International Conference on Computer Vision (ICCV), 2019 <font color="#e86e14">(Oral)</font> </em>
+                <br>
+                <em>Most Innovative Award, <a href="http://cocodataset.org/workshop/coco-mapillary-iccv-2019.html">COCO Object Detection Challenge, 2019</a></em>
+                <br>
+                <span class="links">
+                    <a href="https://arxiv.org/abs/1904.02689">PDF</a>
+                    <!-- <a href="https://yinanhe.github.io/projects/forgerynet.html">Project Page</a> -->
+                    <a href="https://github.com/dbolya/yolact">Code</a>
+                </span>
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <!-- <div class="container">
+    	<h2>Talks</h2>
+    	<div>
+    		<p>
+            <br>
+            2020 @ ACM MM: <em><a href="./papers/openworldhuman_slides.pdf">Sensing, Understanding and Synthesizing Humans in an Open World</a></em>
+            <br>
+            <br>
+            2019 @ ICCV: <em><a href="./papers/diversehuman_slides.pdf">Learning Diverse Human Representation in the Wild</a></em>
+            <br>
+            <br>
+            2019 @ VALSE: <em><a href="./papers/glimpseofdetectron_slides.pdf">The Glimpse of Detectron: Dynamic Forwarding and Routing in Modern Detectors</a></em>
+            <br>
+            <br>
+            2018 @ Berkeley: <em><a href="./papers/videoparsing_slides.pdf">Learning Video Parsing, Tracking and Synthesis in the Wild</a></em>
+            <br>
+            <br>
+    		2017 @ VALSE: <em><a href="./papers/humancentric_slides.pdf">Deep Learning Human-centric Representation in the Wild</a></em>
+    		<br>
+    		<br>
+            2016 @ Google: <em><a href="./papers/deepfashion_slides.pdf">Deep Fashion Understanding</a></em>
+    		<br>
+    		<br>
+    		2015 @ CUHK: <em><a href="./papers/visualstructures_slides.pdf">Formulating Structure for Vision Problems</a></em>
+            <br>
+            <br>
+            2014 @ SIGGRAPH Asia: <em><a href="./papers/burstdenoising_slides.pdf">Fast Burst Images Denoising</a></em>
+            <br>
+            <br>
+            2013 @ HUST: <em><a href="./papers/microscopicimageseg_slides.pdf">Pathological Microscopic Image Segmentation (in Chinese)</a></em>
+   			</p>
+    	</div>
+    </div>
+
+    <div class="container">
+    	<h2>Teaching</h2>
+    	<div>
+    		<p>
+    		<br>
+            FYP 16-17: <em><a href="./papers/pose2landmarks_poster.pdf">Fashion Landmark Detection</a></em>
+            <br>
+    		<br>
+            FYP 15-16: <em><a href="./papers/fashionattributes_poster.pdf">Fashion Attributes Prediction</a> and <a href="./papers/fashionstyle_poster.pdf">Style Transfer</a></em>
+            <br>
+            <br>
+    		FYP 14-15: <em>Face Attributes Recognition on Web Images</em>
+    		<br>
+    		<br>
+    		IERG 2600: <em>Technology, Society and Engineering Practice</em>
+    		<br>
+    		<br>
+    		IERG 3080: <em>Information & Software Engineering Practice</em>
+   			</p>
+    	</div>
+    </div>
+
+    <div class="container">
+    	<h2>Misc</h2>
+    	<div>
+    		<p>
+    		<br>
+    		<span class="links">
+                <a href="https://blindsights.blogspot.com/">Blog</a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://goo.gl/photos/CE8chhuJwTAcZqtL7">Doodles</a>
+                &nbsp;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/playlist?list=PLua4XbbBXzFciVTrYVhZB3Kt7-ZERzzXp">Microcinema</a>
+            </span>
+   			</p>
+    	</div>
+    </div> -->
+
+</body></html>
